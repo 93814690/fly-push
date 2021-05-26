@@ -1,4 +1,4 @@
-package top.liyf.fly.push.domain;
+package top.liyf.fly.push.api.domain;
 
 import lombok.Data;
 

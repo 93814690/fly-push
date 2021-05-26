@@ -3,7 +3,7 @@ package top.liyf.fly.push.api;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import top.liyf.fly.push.domain.ChanifyText;
+import top.liyf.fly.push.api.domain.ChanifyText;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -24,7 +24,7 @@ class TestChanifyController {
         text.setText("this is text");
         text.setSound(1);
         text.setPriority(10);
-        text.setToken("CICmzIgGEiJBQzZBUUZGN0hPNFo0QzROTkczSlJRRU5HRFJRWklIN05FGhRmU0vjxji92dxl8bfsQfWCC4Km-SIECAEQASoiQUZXV1pFVVpBWUVTQUVHQkNIRlZMS0FDR1ZDT1dLN0xBNA..4o26JfEubUnYmAX9g2zXdIhDWhDafvserclpdfOm_b8");
+        text.setToken("CICy4YgGEiJBREpGVTM3RFpNNEZMRlZaN1FCWDVGSE5BTlY0TVM0RFpNGhRmU0vjxji92dxl8bfsQfWCC4Km-SIECAEQASoiQUhSN1pLV1czUkNRQVFJUlpCNUVDVElFS09WWFBSU05TTQ..sbiZSJu63KdZK1dm2l0Rtljnz-btD3V3tdLX3SeRimA");
         chanifyController.text(text);
     }
 }

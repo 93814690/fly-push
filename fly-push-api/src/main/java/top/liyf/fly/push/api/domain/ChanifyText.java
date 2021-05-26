@@ -1,4 +1,4 @@
-package top.liyf.fly.push.domain;
+package top.liyf.fly.push.api.domain;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -9,7 +9,7 @@ import lombok.EqualsAndHashCode;
  */
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class ChanifyText extends Chanify{
+public class ChanifyText extends Chanify {
 
     /**
      * 文本消息内容
