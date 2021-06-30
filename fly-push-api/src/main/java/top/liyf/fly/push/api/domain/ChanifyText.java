@@ -3,6 +3,8 @@ package top.liyf.fly.push.api.domain;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+import java.util.List;
+
 /**
  * @author liyf
  * Created in 2021-05-13
@@ -25,4 +27,9 @@ public class ChanifyText extends Chanify {
      * 是否自动复制文本
      */
     private int autocopy;
+
+    /**
+     * 动作
+     */
+    private List<String> actions;
 }
