@@ -1,5 +1,6 @@
 package top.liyf.fly.push.api.domain;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 /**
@@ -28,4 +29,12 @@ public class Chanify {
      * 令牌Token
      */
     private String token;
+
+    /**
+     * active: 点亮屏幕并可能播放声音。
+     * passive: 不点亮屏幕或播放声音。
+     * time-sensitive: 点亮屏幕并可能播放声音； 可能会在“请勿打扰”期间展示。
+     */
+    @JsonProperty("interruption-level")
+    private String interruptionLevel;
 }
