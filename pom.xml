@@ -6,16 +6,17 @@
   <parent>
     <artifactId>fly</artifactId>
     <groupId>top.liyf</groupId>
-    <version>1.0</version>
+    <version>1.0.2</version>
   </parent>
 
   <artifactId>fly-push</artifactId>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
   <name>fly-push</name>
   <description>Demo project for Spring Boot</description>
 
   <properties>
     <java.version>11</java.version>
+    <api.version>1.1.1</api.version>
   </properties>
 
   <dependencies>
@@ -28,7 +29,7 @@
     <dependency>
       <groupId>top.liyf</groupId>
       <artifactId>fly-push-api</artifactId>
-      <version>${version}</version>
+      <version>${api.version}</version>
     </dependency>
 
     <dependency>
